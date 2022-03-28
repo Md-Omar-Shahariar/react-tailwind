@@ -3,7 +3,7 @@ import React from "react";
 const Link = (props) => {
   const { name, id, link } = props.route;
   return (
-    <li>
+    <li className="mr-4">
       <a href={link}>{name}</a>
     </li>
   );

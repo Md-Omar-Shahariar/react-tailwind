@@ -6,9 +6,9 @@ import Navbar from "./components/NavBar/Navbar";
 function App() {
   return (
     <div className="App">
+      <Navbar></Navbar>
       <Header></Header>
       <h1 className="text-6xl">Welcome to my Pricing Club</h1>
-      <Navbar></Navbar>
     </div>
   );
 }
